@@ -8,15 +8,17 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test-watch": "jest --watch",
+    "test-coverage": "jest --coverage --coverageReporters='text-summary'"
   },
   "dependencies": {
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "storybook": "^7.4.5"
+    "react-dom": "latest"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "13.5.3",
     "@storybook/addon-essentials": "^7.4.5",
     "@storybook/addon-interactions": "^7.4.5",
     "@storybook/addon-links": "^7.4.5",
@@ -25,6 +27,8 @@
     "@storybook/nextjs": "^7.2.1",
     "@storybook/react": "^7.4.5",
     "@storybook/testing-library": "^0.2.2",
+    "@testing-library/jest-dom": "6.1.3",
+    "@types/jest": "29.5.5",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
@@ -33,7 +37,13 @@
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-storybook": "^0.6.14",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.6.2",
+    "jest-extended": "^4.0.1",
     "prettier": "^3.0.3",
+    "storybook": "^7.4.5",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
     "typescript": "latest"
   }
 }
