@@ -1,5 +1,5 @@
 'use client';
 const HomePage = () => {
-    return <div>main pge</div>
+    return <div>Main Content</div>
 };
 export default HomePage;

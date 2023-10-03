@@ -1,19 +1,14 @@
-import { Nav, NavbarItem } from "./Navbar.styles"
+import { Nav, NavbarInnerWrapper, NavbarItem, NavbarLink } from "./Navbar.styles"
 
 export const Navbar = () => {
   return (
   <Nav>
-    <NavbarItem>
-        this
-    </NavbarItem>
-    <NavbarItem>
-        this
-    </NavbarItem>
-    <NavbarItem>
-        this
-    </NavbarItem>
-    <NavbarItem>
-        this
-    </NavbarItem>
+    <NavbarInnerWrapper>
+        <NavbarItem>
+            <NavbarLink href="/temp">
+                this
+            </NavbarLink>
+        </NavbarItem>
+    </NavbarInnerWrapper>
   </Nav>)
 }
