@@ -10,5 +10,5 @@ export const MainContent = styled.main`
   flex: 1;
   overflow-x: auto;
   overflow-y: scroll;
-  background: pink;
+  background: white;
 `;

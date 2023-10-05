@@ -4,24 +4,27 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
   gird-area: nav;
-  width: 100px;
+  width: 120px;
   height: 100%;
   boarder-right: 1px solid grey;
 `;
 
-export const NavbarInnerWrapper = styled.ul`
-  height: 100%;
+export const NavbarWrapper = styled.ul`
+  padding: 0;
+  border-right: solid 1px grey;
 `;
 
 export const NavbarItem = styled.li`
-  height: 20px;
+  height: 40px;
 `;
 
 export const NavbarLink = styled(Link)`
   display: flex;
-  height: 56px;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
   &:hover {
-    background: blue;
+    background: grey;
   }
 
 `;
