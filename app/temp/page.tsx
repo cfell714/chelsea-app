@@ -1,5 +1,5 @@
 'use client';
 const TempPage = () => {
-    return <div>tmep page</div>
+    return <div>temp page</div>
 };
 export default TempPage;
